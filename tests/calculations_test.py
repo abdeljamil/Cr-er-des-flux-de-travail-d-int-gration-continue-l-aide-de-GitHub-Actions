@@ -64,6 +64,11 @@ def test_get_nth_fibonacci_one():
     assert result == 1
 
 
+def test_get_nth_fibonacci_two():
+    """Test the first iterative Fibonacci value."""
+    assert get_nth_fibonacci(2) == 1
+
+
 def test_get_nth_fibonacci_negative():
     """Reject a negative index."""
     with pytest.raises(ValueError, match="n cannot be negative"):
