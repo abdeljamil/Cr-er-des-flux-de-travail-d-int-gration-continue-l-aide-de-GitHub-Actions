@@ -77,4 +77,4 @@ def test_get_nth_fibonacci_negative():
 
 def test_get_nth_fibonacci_ten():
     """Test an index that requires iteration."""
-    assert get_nth_fibonacci(10) == 89
+    assert get_nth_fibonacci(10) == 55
